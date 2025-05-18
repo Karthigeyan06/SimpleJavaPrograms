@@ -1,0 +1,31 @@
+package Pack1;
+import java.util.*;
+class let{
+	private double l,b;
+	public void area() {
+		let ob=new let();
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the b:");
+		System.out.println("Enter the l:");
+		ob.b=sc.nextDouble();
+		ob.l=sc.nextDouble();
+		double area=ob.l*ob.b;
+		System.out.println("The area is "+area);
+	}
+	
+}
+public class oopsd1 {
+	public static void main(String[] args) {
+		let ob=new let();
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the b:");
+		System.out.println("Enter the l:");
+		ob.b=sc.nextDouble();
+		ob.l=sc.nextDouble();
+		double area=ob.l*ob.b;
+		System.out.println("The area is "+area);
+	}
+}
+
+public class oopsd2
+
